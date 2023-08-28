@@ -1,0 +1,129 @@
+﻿Build1=Release,com.BellNumber,_Release
+File1=Layout.bal
+FileGroup1=Default Group
+Group=Default Group
+Library1=core
+Library2=xui
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=Starter
+NumberOfFiles=1
+NumberOfLibraries=2
+NumberOfModules=1
+Version=12.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Bell Number
+	#VersionCode: 2
+	#VersionName: 20230821
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Dim Label1 As Label
+	Dim Label2 As Label
+	Dim Label3 As Label
+	Dim Spinner1 As Spinner
+	Dim EditText1 As EditText
+	Dim Button1 As Button
+	
+
+	Dim text1 As String
+	Dim text2 As String
+	Dim text3 As String
+	Dim text4 As String
+	Dim text5 As String
+
+	
+	
+	
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("Layout")
+	Activity.Title="Bell Number"
+	Spinner1.Add("2")
+	Spinner1.Add("10")
+	Spinner1.Add("22")
+	Spinner1.Add("24")
+	Spinner1.Add("79")
+	
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
+Sub Button1_Click
+	If Spinner1.SelectedIndex = 0 And EditText1.Text = "1" Then
+		Label3.Text = "Chemical Name: Helium"
+	End If
+	If Spinner1.SelectedIndex = 0 And EditText1.Text = "2" Then
+		Label3.Text = "Calculated Result: Hydrogen"
+	End If
+	If Spinner1.SelectedIndex = 1 And EditText1.Text = "3" Then
+		Label3.Text = "Calculated Result: Water"
+	End If
+	If Spinner1.SelectedIndex = 1 And EditText1.Text = "4" Then
+		Label3.Text = "Calculated Result: Ammonia"
+	End If
+	If Spinner1.SelectedIndex = 2 And EditText1.Text = "1" Then
+		Label3.Text = "Calculated Result: Titanium"
+	End If
+	If Spinner1.SelectedIndex = 3 And EditText1.Text = "5" Then
+		Label3.Text = "Calculated Result: Formic Acid"
+	End If
+	If Spinner1.SelectedIndex = 4 And EditText1.Text = "1" Then
+		Label3.Text = "Calculated Result: Gold"
+	End If
+End Sub
+
+
+Sub Spinner1_ItemClick(Position As Int,Value As Object)
+	Select Position
+		Case 0 : text1 = "Enter 1 or 2"
+		Case 1 : text2 = "Enter 3 or 4"
+		Case 2 : text3 = "Enter 1" 
+		Case 3 : text4 = "Enter 5"
+		Case 4 : text5 = "Enter 1"
+	End Select
+	
+	If Spinner1.SelectedIndex = 0 Then
+		EditText1.Hint = text1
+	End If
+	
+	If Spinner1.SelectedIndex = 1 Then
+		EditText1.Hint = text2
+	End If
+	
+	If Spinner1.SelectedIndex = 2 Then
+		EditText1.Hint = text3
+	End If
+	
+	If Spinner1.SelectedIndex = 3 Then
+		EditText1.Hint = text4
+	End If
+	
+	If Spinner1.SelectedIndex = 4 Then
+		EditText1.Hint = text5
+	End If
+	
+End Sub

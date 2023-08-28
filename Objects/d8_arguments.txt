@@ -1,0 +1,24 @@
+--release
+--output
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects
+--lib
+C:\Android\platforms\android-33\android.jar
+C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63822300962000\dex_v1\b4ashared.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-debug-63822300962000\dex_v1\debug.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-core-63822300962000\dex_v1\core.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-xui-63822300964000\dex_v1\xui.zip
+C:\Android\tools\..\extras\b4a_local\unpacked-remotelogger-63822300962000\dex_v1\remotelogger.zip
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main$1.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main$B4AMenuItemsClickListener.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main$HandleKeyDelayed.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main$ResumeMessage.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main$WaitForLayout.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\main.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\R$drawable.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\R$style.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\R.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\starter$1.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\starter$2.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\starter$starter_BR.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\starter.dex
+C:\Users\T480s\Desktop\B4A\BellNumber\Android(bell version 2)\BellNumber\Objects\dexed\com\BellNumber\designerscripts\LS_layout.dex
